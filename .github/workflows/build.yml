@@ -1,11 +1,12 @@
 name: build
 
 on:
+  workflow_dispatch
 #  release:
 #    types: [published]
-  push:
-    branches:
-      - master
+#  push:
+#    branches:
+#      - master
 #    paths:
 #      - '.config'
 #  schedule:
